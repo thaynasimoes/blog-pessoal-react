@@ -31,7 +31,7 @@ function Login() {
     function login(e: ChangeEvent<HTMLFormElement>) {
         e.preventDefault()
         handleLogin(usuarioLogin)
-    }
+    } 
 
     return (
         <>
